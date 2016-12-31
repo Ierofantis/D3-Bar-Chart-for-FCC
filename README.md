@@ -1,5 +1,4 @@
-# Hangman
+# D3 for FreecodeCamp
 
-A hangman game on Javascript
+D3 for FreecodeCamp
 
-![alt tag] (https://i.imgur.com/3IUrYeE.jpg)
