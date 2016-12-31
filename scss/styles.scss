@@ -1,6 +1,6 @@
-
 body {
   font: 10px sans-serif;
+  background-color: #a38181;
 }
 
 .axis path,
@@ -11,11 +11,11 @@ body {
 }
 
 .bar {
-  fill: orange;
+  fill: black;
 }
 
 .bar:hover {
-  fill: orangered ;
+  fill: white;
 }
 
 .x.axis path {
@@ -31,7 +31,9 @@ body {
   border-radius: 2px;
 }
 
+
 /* Creates a small triangle extender for the tooltip */
+
 .d3-tip:after {
   box-sizing: border-box;
   display: inline;
@@ -44,9 +46,27 @@ body {
   text-align: center;
 }
 
+
 /* Style northward tooltips differently */
+
 .d3-tip.n:after {
   margin: -1px 0 0 0;
   top: 100%;
   left: 0;
+}
+
+.amount {
+  font-size: 1em;
+  font-weight: bold;
+  position: absolute;
+  text-align: left;
+  width: auto;
+  height: auto;
+  padding: 3px 5px 3px 5px;
+  font: 1em sans-serif;
+  border: 0px;
+  border-radius: 5px;
+  pointer-events: none;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2);
+  background-color: lightsteelblue;
 }
